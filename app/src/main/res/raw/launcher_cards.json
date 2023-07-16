@@ -1,0 +1,35 @@
+[
+  {
+    "title": "",
+    "cards": [
+      {
+        "id": 0,
+        "type": "DEFAULT",
+        "title": "Perpustakaan",
+        "localImageResource": "perpus",
+        "description": "Showcase of various Restaurant"
+      },
+      {
+        "id": 1,
+        "type": "DEFAULT",
+        "title": "Lobby Gedung B",
+        "localImageResource": "lobby",
+        "description": "Showcase of various Mountain, Waterfall, Lake and Etc"
+      },
+      {
+        "id": 2,
+        "type": "DEFAULT",
+        "title": "Kelas Gedung B",
+        "localImageResource": "kelas",
+        "description": "Showcase of various School, Libary and Museum"
+      },
+      {
+        "id": 3,
+        "type": "DEFAULT",
+        "title": "Perpus",
+        "localImageResource": "perpus",
+        "description": "Showcase of various School, Libary and Museum"
+      }
+    ]
+  }
+]

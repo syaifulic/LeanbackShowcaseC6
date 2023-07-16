@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "type": "GAME",
+      "title": "Taman Mini",
+      "description": "$3.99/lb",
+      "localImageResource": "tmii"
+    },
+    {
+      "type": "GAME",
+      "title": "Museum Jakarta",
+      "description": "$3.99/lb",
+      "localImageResource": "jktmuseum"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "type": "GAME",
+      "title": "Mall Of Indonesia",
+      "description": "$3.99/lb",
+      "localImageResource": "moi"
+    },
+    {
+      "type": "GAME",
+      "title": "Grand Indonesia",
+      "description": "$3.99/lb",
+      "localImageResource": "gi"
+    }
+  ]
+}

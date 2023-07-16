@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "type": "GAME",
+      "title": "Hutan Bambu",
+      "description": "$3.99/lb",
+      "localImageResource": "hutan"
+    },
+    {
+      "type": "GAME",
+      "title": "Pemancingan",
+      "description": "$3.99/lb",
+      "localImageResource": "mancing"
+    }
+  ]
+}

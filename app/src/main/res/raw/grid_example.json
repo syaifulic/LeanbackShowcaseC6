@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "type": "GAME",
+      "title": "Golden Lamian",
+      "description": "$3.99/lb",
+      "localImageResource": "golden"
+    },
+    {
+      "type": "GAME",
+      "title": "Upnormal",
+      "description": "$3.99/lb",
+      "localImageResource": "up"
+    }
+  ]
+}

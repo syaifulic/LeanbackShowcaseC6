@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<RelativeLayout
+    android:id="@+id/fragmentContainer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:deviceIds="tv"
+    tools:ignore="MergeRootFrame"
+    android:background="@drawable/bgo">
+
+    <ImageView
+        android:id="@+id/home1"
+        android:layout_width="wrap_content"
+        android:maxWidth="@dimen/lb_browse_title_icon_max_width"
+        android:adjustViewBounds="true"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical|start"
+        android:src="@drawable/home"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        style="?attr/browseTitleIconStyle"/>
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="wrap_content"
+        android:maxWidth="@dimen/lb_browse_title_icon_max_width"
+        android:adjustViewBounds="true"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical|start"
+        android:src="@drawable/search"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="-45dp"
+        android:layout_toRightOf="@id/home1"
+
+        style="?attr/browseTitleIconStyle"/>
+
+    <ImageView
+        android:id="@+id/lobbyText"
+        style="?attr/browseTitleIconStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|start"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="115dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/lobbytext" />
+
+
+    <DigitalClock
+        android:id="@+id/jam"
+        android:textSize="25dp"
+        android:textColor="@color/detail_view_actionbar_background"
+        android:layout_width="wrap_content"
+        android:maxWidth="@dimen/lb_browse_title_icon_max_width"
+        android:adjustViewBounds="true"
+        android:layout_height="@dimen/lb_browse_title_icon_height"
+        android:layout_gravity="center_vertical|start"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@id/search"
+        android:layout_marginLeft="650dp"
+        style="?attr/browseTitleIconStyle"/>
+
+
+<!--    <ImageView-->
+<!--        android:id="@+id/jam"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:maxWidth="@dimen/lb_browse_title_icon_max_width"-->
+<!--        android:adjustViewBounds="true"-->
+<!--        android:layout_height="@dimen/lb_browse_title_icon_height"-->
+<!--        android:layout_gravity="center_vertical|start"-->
+<!--        android:src="@drawable/clock"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_toRightOf="@id/search"-->
+<!--        android:layout_marginLeft="650dp"-->
+<!--        style="?attr/browseTitleIconStyle"/>-->
+
+    <androidx.leanback.leanbackshowcase.app.YoutubePlayerView
+        android:id="@+id/youtubePlayerView"
+        android:layout_width="480dp"
+        android:layout_height="305dp"
+        android:layout_marginLeft="920px"
+        android:layout_marginTop="320px"
+        android:src="@drawable/boxvideo"
+
+        />
+</RelativeLayout>
